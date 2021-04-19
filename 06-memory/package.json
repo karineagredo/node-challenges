@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "event-stream": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+  }
+}
